@@ -1,7 +1,6 @@
----
 name: workflowOne
 on:
-  workflow_dispatch: push
+  workflow_dispatch: 
 concurrency:
   group: ci_workflow_group
   cancel-in-progress: false
