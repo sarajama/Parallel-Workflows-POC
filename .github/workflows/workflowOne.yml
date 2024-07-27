@@ -1,5 +1,7 @@
 name: workflowOne
 on:
+  push :
+
   workflow_dispatch: 
 concurrency:
   group: ci_workflow_group
