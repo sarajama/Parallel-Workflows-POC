@@ -1,7 +1,5 @@
 name: workflowone
 
-echo " Parallel workflow Runs with depedencies job "
-
 on:
   workflow_dispatch:  
 #  push
